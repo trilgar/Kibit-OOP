@@ -1,4 +1,5 @@
 // Клас для представлення клієнта
+package lecture1;
 class Customer {
     String name;
     String address;
