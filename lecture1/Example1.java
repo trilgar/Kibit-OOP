@@ -14,6 +14,8 @@ class Customer {
 class SalesPerson {
     String name;
 
+    // тут міститься інформація про доступні дивани, доставку та інше
+
     // Метод для обробки замовлення
     String processOrder(String sofaType, String deliveryDate) {
         if (checkStock(sofaType) && checkDeliveryDate(deliveryDate)) {

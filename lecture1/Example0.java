@@ -28,3 +28,36 @@ class Second {
         System.out.println("Сума елементів: " + sum);
     }
 }
+
+class NumberProcessor {
+    private int[] numbers;
+
+    // Конструктор для ініціалізації масиву чисел
+    public NumberProcessor(int[] numbers) {
+        this.numbers = numbers;
+    }
+
+    // Метод для обчислення суми елементів масиву
+    public int calculateSum() {
+        int sum = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        return sum;
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        // Створення об'єкта NumberProcessor та передача йому масиву чисел
+        int[] numbers = {1, 2, 3, 4, 5};
+        NumberProcessor processor = new NumberProcessor(numbers);
+
+        // Виклик методу calculateSum для обчислення суми
+        int sum = processor.calculateSum();
+
+        System.out.println("Сума елементів: " + sum);
+    }
+}
+
+
