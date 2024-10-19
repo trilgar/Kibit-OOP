@@ -6,6 +6,7 @@ public class ThreadExample {
         Thread tB = new MyThread("\t\t\t\t\tB:");
         tA.start();
         tB.start();
+        tA.start();
     }
 }
 

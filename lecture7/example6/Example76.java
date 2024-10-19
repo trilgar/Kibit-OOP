@@ -1,6 +1,19 @@
 package lecture7.example6;
 
+import java.io.IOException;
+
 public class Example76 {
+    public static void main(String[] args) {
+       try {
+           send();
+       } catch (ArithmeticException e) {
+           System.out.println("Error");
+       }
+    }
+    public static void send(){
+        EMail email = new EMail();
+        email.send("123");
+    }
 }
 
 class EMail {
@@ -13,13 +26,12 @@ class EMail {
                 String line = readInputBuffer();
                 sendContent(line);
             }
-        } catch (SocketException s) {
+            throw new ArithmeticException();
+        } catch (SocketException | NoUserReply | WriteError exception) {
+            exception.getCause();
             errorCode = 1;
-        } catch (NoUserReply n) {
-            errorCode = 2;
-        } catch (WriteError w) {
-            errorCode = 3;
         }
+        System.out.println("End");
     }
 
     String emailUserOf(String address) throws NoUserReply {

@@ -3,7 +3,7 @@ package lecture7.example12;
 public class Example712 {
     public static void main(String[] args) {
 
-        try (TransmissionChannel channel = new TransmissionChannel()) {
+        try (TransmissionChannel channel = new TransmissionChannel(); TransmissionChannel channel2 = new TransmissionChannel()) {
             // Виконання основної передачі даних
             channel.transmitData("Hello, World!");
             // Симуляція помилки передачі

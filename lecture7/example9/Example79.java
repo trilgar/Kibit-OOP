@@ -16,6 +16,8 @@ public class Example79 {
             // handle ProtocolError by inspecting e appropriately
         } catch (CommError f) {
             // handle CommError by inspecting f appropriately
+        } catch (Exception g) {
+            // handle all other exceptions
         }
     }
 }

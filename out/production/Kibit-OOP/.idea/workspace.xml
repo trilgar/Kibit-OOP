@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="Lecture 7">
-      <change afterPath="$PROJECT_DIR$/lecture8/Example81.java" afterDir="false" />
+    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="Lecture 8">
+      <change beforePath="$PROJECT_DIR$/lecture7/example12/Example712.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture7/example12/Example712.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/example6/Example76.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture7/example6/Example76.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/example9/Example79.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture7/example9/Example79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture8/example1/RunnableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture8/example1/RunnableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture8/example7/SynchronizedRaceCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture8/example7/SynchronizedRaceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example12/Example712.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example12/Example712.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/EMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/EMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/Example76.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/Example76.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/NoUserReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/NoUserReply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/SocketException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/SocketException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/WriteError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example6/WriteError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example9/CommError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example9/CommError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example9/Example79.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example9/Example79.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example9/ProtocolError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/lecture7/example9/ProtocolError.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,60 +60,70 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.D.executor": "Run",
-    "Application.DynamicBindingExample.executor": "Run",
-    "Application.Example51.executor": "Run",
-    "Application.Example52.executor": "Run",
-    "Application.Example53.executor": "Run",
-    "Application.Example54.executor": "Run",
-    "Application.Example81.executor": "Run",
-    "Application.ExampleOfStatic.executor": "Run",
-    "Application.IncrementalDevelopment.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.StaticBindingExample.executor": "Run",
-    "Application.lecture3.Main.executor": "Run",
-    "Application.lecture4.example31.Main.executor": "Run",
-    "Application.lecture4.example32.Main.executor": "Run",
-    "Application.lecture4.example34.Main.executor": "Run",
-    "Application.lecture4.example36.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zarit/IdeaProjects/Kibit-OOP/lecture7",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynamicBindingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example51.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example52.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example53.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example54.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Example81.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleOfStatic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncrementalDevelopment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RaceCondition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticBindingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedRaceCondition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture4.example31.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture4.example32.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture4.example34.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture4.example36.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture8.example2.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture8.example3.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture8.example4.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lecture8.example5.RunnableExample.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zarit/IdeaProjects/Kibit-OOP/lecture8/example7&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture7" />
-      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture5\example42" />
-      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
+      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture8\example7" />
+      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture8\example6" />
+      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture8\example5" />
+      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture8\example4" />
+      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture8\example3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP" />
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Example81">
-    <configuration name="Example51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture6.Example51" />
+  <component name="RunManager" selected="Application.RunnableExample">
+    <configuration name="RaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture8.example7.RaceCondition" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture6.*" />
+          <option name="PATTERN" value="lecture8.example7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example52" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture6.Example52" />
+    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture8.example1.RunnableExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture6.*" />
+          <option name="PATTERN" value="lecture8.example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture6.Example53" />
+    <configuration name="SynchronizedRaceCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture8.example7.SynchronizedRaceCondition" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture6.*" />
+          <option name="PATTERN" value="lecture8.example7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example54" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture6.Example54" />
+    <configuration name="ThreadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture8.example6.ThreadExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture6.*" />
+          <option name="PATTERN" value="lecture8.example6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example81" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture8.Example81" />
+    <configuration name="lecture8.example5.RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture8.example5.RunnableExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture8.*" />
+          <option name="PATTERN" value="lecture8.example5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example81" />
-        <item itemvalue="Application.Example54" />
-        <item itemvalue="Application.Example53" />
-        <item itemvalue="Application.Example52" />
-        <item itemvalue="Application.Example51" />
+        <item itemvalue="Application.RunnableExample" />
+        <item itemvalue="Application.SynchronizedRaceCondition" />
+        <item itemvalue="Application.RaceCondition" />
+        <item itemvalue="Application.ThreadExample" />
+        <item itemvalue="Application.lecture8.example5.RunnableExample" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +223,10 @@
       <workItem from="1727462304543" duration="6914000" />
       <workItem from="1727598810817" duration="1593000" />
       <workItem from="1727679776405" duration="4716000" />
-      <workItem from="1728059109772" duration="721000" />
+      <workItem from="1728059109772" duration="8778000" />
+      <workItem from="1728285037092" duration="5733000" />
+      <workItem from="1728376606003" duration="36000" />
+      <workItem from="1728892959938" duration="1569000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 1">
       <option name="closed" value="true" />
@@ -337,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727470572826</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Lecture 8">
+      <option name="closed" value="true" />
+      <created>1728069889207</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728069889207</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +401,7 @@
     <MESSAGE value="Lecture 4 example 4.3" />
     <MESSAGE value="Lecture 5" />
     <MESSAGE value="Lecture 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 7" />
+    <MESSAGE value="Lecture 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 8" />
   </component>
 </project>

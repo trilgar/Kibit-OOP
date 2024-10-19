@@ -32,13 +32,16 @@ class BankSync implements Runnable {
             transactBA(c = (int) (Math.random() * b));
         }
     }
+    private synchronized void printInfo() {
+        System.out.println("a=" + a + " b=" + b
+                + " sum=" + (a + b));
+    }
 
     public void run() {
         for (int i = 0; i < 1000; i++) {
             transactRandom();
         }
-        System.out.println("a=" + a + " b=" + b
-                + " sum=" + (a + b));
+        printInfo();
     }
 }
 
