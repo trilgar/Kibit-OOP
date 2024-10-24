@@ -1,5 +1,6 @@
 package lecture9.example1;
 
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.Level;
@@ -27,7 +28,7 @@ public class ThreadPoolExample {
             logger.log(Level.SEVERE, null, ex);
         }
 
-
+        List<Runnable> canceledTask = executor.shutdownNow();
         System.out.println("End of main");
 
     }
@@ -51,8 +52,7 @@ class MyRunnable implements Runnable {
             try {
                 Thread.sleep(10);
             } catch (InterruptedException ex) {
-                logger.log(Level.SEVERE, "name:" + name, ex);
-                return;
+                System.out.println("No, I will work until I finish my job!");
             }
         }
     }

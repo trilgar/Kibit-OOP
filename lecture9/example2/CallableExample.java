@@ -19,7 +19,7 @@ public class CallableExample {
         double to = 10;
         double step = (to - from) / n;
 
-        int threads = 4;
+        int threads = 6;
 
 
         long mili = System.currentTimeMillis();

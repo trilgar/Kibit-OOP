@@ -10,7 +10,7 @@ import static java.lang.Math.sin;
 public class ForkJoinExample {
     public static void main(String[] args) {
         DoubleUnaryOperator fn = (x)->sin(x)*sin(x) + cos(x)*cos(x);
-        long n = 10_000_000L;;
+        long n = 10_000_000L;
         double from = 0;
         double to = 10;
         double step = (to - from) / n;
@@ -18,7 +18,7 @@ public class ForkJoinExample {
 
         MyIntegrator2 mi2 = new MyIntegrator2(fn, from, to, step);
 
-        int threads = 4;
+        int threads = 6;
         ForkJoinPool pool = new ForkJoinPool(threads);
         Double result = pool.invoke(mi2);
 
