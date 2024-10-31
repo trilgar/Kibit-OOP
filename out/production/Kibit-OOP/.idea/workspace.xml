@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="Lecture 9&#10;Advanced multithreading&#10;VirtualThreadsExample">
-      <change afterPath="$PROJECT_DIR$/lecture10/dry/example1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/dry/example1/badexample/BadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/dry/example1/goodexample/FixedExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/dry/example2/BadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/dry/example2/GoodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/dry/example3/BadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/dry/example3/GoodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/kiss/example1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/kiss/example1/badexample/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/kiss/example1/goodexample/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/lod/example1/BadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/lod/example1/GoodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/solid/ocp/badexample/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/solid/ocp/goodexample/MainOCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/solid/srp/badexample/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/solid/srp/goodexample/MainSRP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/yagni/example1/BadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/yagni/example1/GoodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/yagni/example2/BadExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/yagni/example2/GoodExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/yagni/example3/badexample/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture10/yagni/example3/goodexample/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture9/example1/ThreadPoolExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture9/example1/ThreadPoolExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture9/example2/CallableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture9/example2/CallableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture9/example3/ForkJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture9/example3/ForkJoinExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="Lecture 10 &#10;SOLID">
+      <change afterPath="$PROJECT_DIR$/lecture11/singleton/SingletonExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,9 +63,12 @@
     "Application.ForkJoinExample.executor": "Run",
     "Application.IncrementalDevelopment.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MainDIP.executor": "Run",
+    "Application.MainDIPViolation.executor": "Run",
     "Application.MainOCP.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.RunnableExample.executor": "Run",
+    "Application.SingletonExample.executor": "Run",
     "Application.StaticBindingExample.executor": "Run",
     "Application.StreamParallel.executor": "Run",
     "Application.SynchronizedRaceCondition.executor": "Run",
@@ -113,7 +91,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zarit/IdeaProjects/Kibit-OOP/lecture10/dry",
+    "last_opened_file_path": "C:/Users/zarit/IdeaProjects/Kibit-OOP/lecture10/solid/isp/goodexample",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -128,18 +106,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture10\solid\isp\goodexample" />
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture10\dry" />
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture9\example1" />
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture9\example2" />
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture9" />
-      <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture8\example7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP" />
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainOCP">
+  <component name="RunManager" selected="Application.SingletonExample">
     <configuration name="BadExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture10.dry.example1.badexample.BadExample" />
       <module name="Kibit-OOP" />
@@ -153,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture9.example5.CompletableFutureExample" />
+    <configuration name="MainDIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture10.solid.dip.goodexample.MainDIP" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture9.example5.*" />
+          <option name="PATTERN" value="lecture10.solid.dip.goodexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture10.dry.example1.goodexample.FixedExample" />
+    <configuration name="MainDIPViolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture10.solid.dip.badexample.MainDIPViolation" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture10.dry.example1.*" />
+          <option name="PATTERN" value="lecture10.solid.dip.badexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VirtualThreadsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture9.example6.VirtualThreadsExample" />
+    <configuration name="SingletonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture11.singleton.SingletonExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture9.example6.*" />
+          <option name="PATTERN" value="lecture11.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonExample" />
+        <item itemvalue="Application.MainDIP" />
+        <item itemvalue="Application.MainDIPViolation" />
         <item itemvalue="Application.MainOCP" />
         <item itemvalue="Application.BadExample" />
-        <item itemvalue="Application.FixedExample" />
-        <item itemvalue="Application.VirtualThreadsExample" />
-        <item itemvalue="Application.CompletableFutureExample" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +225,13 @@
       <workItem from="1729495945495" duration="6896000" />
       <workItem from="1729700652749" duration="5264000" />
       <workItem from="1729755066877" duration="19000" />
-      <workItem from="1729789055415" duration="1876000" />
+      <workItem from="1729789055415" duration="3990000" />
+      <workItem from="1729857716402" duration="607000" />
+      <workItem from="1729938978028" duration="1000" />
+      <workItem from="1729940610402" duration="620000" />
+      <workItem from="1730106456975" duration="72000" />
+      <workItem from="1730107678922" duration="2682000" />
+      <workItem from="1730399982498" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 1">
       <option name="closed" value="true" />
@@ -425,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729343194048</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Lecture 10 &#10;SOLID">
+      <option name="closed" value="true" />
+      <created>1729792886702</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729792886702</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,6 +449,7 @@
     <MESSAGE value="Lecture 8" />
     <MESSAGE value="Lecture 9&#10;Advanced multithreading" />
     <MESSAGE value="Lecture 9&#10;Advanced multithreading&#10;VirtualThreadsExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 9&#10;Advanced multithreading&#10;VirtualThreadsExample" />
+    <MESSAGE value="Lecture 10 &#10;SOLID" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 10 &#10;SOLID" />
   </component>
 </project>
