@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 11 &#10;Building strategies">
-      <change afterPath="$PROJECT_DIR$/lecture12/adapter/AdapterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture12/bridge/BridgeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture12/composite/CompositeExample.java" afterDir="false" />
+    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 12&#10;Structural patterns">
+      <change afterPath="$PROJECT_DIR$/lecture13/cor/ChainOfResponsibilityExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +49,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbstractFabricExample.executor": "Run",
+    "Application.AdapterExample.executor": "Run",
     "Application.BadExample.executor": "Run",
+    "Application.BridgeExample.executor": "Run",
     "Application.BuilderExample.executor": "Run",
     "Application.CallableExample.executor": "Run",
+    "Application.ChainOfResponsibilityExample.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
     "Application.CompositeExample.executor": "Run",
     "Application.D.executor": "Run",
@@ -64,8 +65,10 @@
     "Application.Example54.executor": "Run",
     "Application.Example81.executor": "Run",
     "Application.ExampleOfStatic.executor": "Run",
+    "Application.FacadeExample.executor": "Run",
     "Application.FactoryExample.executor": "Run",
     "Application.FixedExample.executor": "Run",
+    "Application.FlyweightExample.executor": "Run",
     "Application.ForkJoinExample.executor": "Run",
     "Application.IncrementalDevelopment.executor": "Run",
     "Application.Main.executor": "Run",
@@ -73,6 +76,7 @@
     "Application.MainDIPViolation.executor": "Run",
     "Application.MainOCP.executor": "Run",
     "Application.PrototypeExample.executor": "Run",
+    "Application.ProxyExample.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.RunnableExample.executor": "Run",
     "Application.SingletonExample.executor": "Run",
@@ -124,13 +128,13 @@
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompositeExample">
-    <configuration name="AbstractFabricExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture11.abstractfabric.AbstractFabricExample" />
+  <component name="RunManager" selected="Application.ChainOfResponsibilityExample">
+    <configuration name="AdapterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture12.adapter.AdapterExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture11.abstractfabric.*" />
+          <option name="PATTERN" value="lecture12.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuilderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture11.builder.BuilderExample" />
+    <configuration name="ChainOfResponsibilityExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture13.cor.ChainOfResponsibilityExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture11.builder.*" />
+          <option name="PATTERN" value="lecture13.cor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture12.composite.CompositeExample" />
+    <configuration name="FacadeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture12.facade.FacadeExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture12.composite.*" />
+          <option name="PATTERN" value="lecture12.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture11.factory.FactoryExample" />
+    <configuration name="FlyweightExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture12.flyweight.FlyweightExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture11.factory.*" />
+          <option name="PATTERN" value="lecture12.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture11.prototype.PrototypeExample" />
+    <configuration name="ProxyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture12.proxy.ProxyExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture11.prototype.*" />
+          <option name="PATTERN" value="lecture12.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompositeExample" />
-        <item itemvalue="Application.AbstractFabricExample" />
-        <item itemvalue="Application.FactoryExample" />
-        <item itemvalue="Application.BuilderExample" />
-        <item itemvalue="Application.PrototypeExample" />
+        <item itemvalue="Application.ChainOfResponsibilityExample" />
+        <item itemvalue="Application.ProxyExample" />
+        <item itemvalue="Application.FlyweightExample" />
+        <item itemvalue="Application.FacadeExample" />
+        <item itemvalue="Application.AdapterExample" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +244,9 @@
       <workItem from="1730107678922" duration="2682000" />
       <workItem from="1730399982498" duration="5185000" />
       <workItem from="1730463765922" duration="62000" />
-      <workItem from="1730539471098" duration="1436000" />
+      <workItem from="1730539471098" duration="5001000" />
+      <workItem from="1730706616164" duration="5483000" />
+      <workItem from="1731004957823" duration="398000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 1">
       <option name="closed" value="true" />
@@ -434,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730405385104</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lecture 12&#10;Structural patterns">
+      <option name="closed" value="true" />
+      <created>1730544426178</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1730544426179</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,6 +482,7 @@
     <MESSAGE value="Lecture 9&#10;Advanced multithreading&#10;VirtualThreadsExample" />
     <MESSAGE value="Lecture 10 &#10;SOLID" />
     <MESSAGE value="lecture 11 &#10;Building strategies" />
-    <option name="LAST_COMMIT_MESSAGE" value="lecture 11 &#10;Building strategies" />
+    <MESSAGE value="lecture 12&#10;Structural patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 12&#10;Structural patterns" />
   </component>
 </project>
