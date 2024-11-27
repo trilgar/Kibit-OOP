@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 14&#10;behavioral patterns" />
+    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 15&#10;behavioral patterns&#10;double dispatch problem">
+      <change afterPath="$PROJECT_DIR$/lecture16/example1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture13/mediator/MediatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture13/mediator/MediatorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture15/templatemethod/TemplateMethodExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture15/templatemethod/TemplateMethodExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +76,7 @@
     &quot;Application.FlyweightExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ForkJoinExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.IncrementalDevelopment.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InnerClassMementoExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainDIP.executor&quot;: &quot;Run&quot;,
@@ -79,20 +85,24 @@
     &quot;Application.MediatorExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.MementoExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ObserverExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProblemExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.PrototypeExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ProxyExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.RaceCondition.executor&quot;: &quot;Run&quot;,
     &quot;Application.RunnableExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.SingletonExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solving.executor&quot;: &quot;Run&quot;,
     &quot;Application.StateExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StaticBindingExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StrategyExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StreamParallel.executor&quot;: &quot;Run&quot;,
     &quot;Application.SynchronizedRaceCondition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TemplateMethodExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThreadPoolExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThreadPoolExampleWithFactory.executor&quot;: &quot;Run&quot;,
     &quot;Application.VirtualThreadsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VisitorExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.lecture3.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.lecture4.example31.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.lecture4.example32.Main.executor&quot;: &quot;Run&quot;,
@@ -134,13 +144,13 @@
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TemplateMethodExample">
-    <configuration name="ClassicMementoPatternExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture13.memento.classic.ClassicMementoPatternExample" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="InnerClassMementoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture13.memento.innerclass.InnerClassMementoExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture13.memento.classic.*" />
+          <option name="PATTERN" value="lecture13.memento.innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture14.observer.ObserverExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example1.Main" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture14.observer.*" />
+          <option name="PATTERN" value="lecture16.example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TemplateMethodExample" />
         <item itemvalue="Application.StrategyExample" />
         <item itemvalue="Application.StateExample" />
-        <item itemvalue="Application.ObserverExample" />
-        <item itemvalue="Application.ClassicMementoPatternExample" />
+        <item itemvalue="Application.InnerClassMementoExample" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +269,10 @@
       <workItem from="1731405462567" duration="603000" />
       <workItem from="1731615141471" duration="3878000" />
       <workItem from="1731657863142" duration="42000" />
+      <workItem from="1731756691875" duration="3251000" />
+      <workItem from="1731917357094" duration="5394000" />
+      <workItem from="1732266471233" duration="4230000" />
+      <workItem from="1732729497371" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 1">
       <option name="closed" value="true" />
@@ -476,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731619530245</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="lecture 15&#10;behavioral patterns&#10;double dispatch problem">
+      <option name="closed" value="true" />
+      <created>1731761385360</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1731761385360</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,6 +535,7 @@
     <MESSAGE value="lecture 12&#10;Structural patterns" />
     <MESSAGE value="lecture 13&#10;behavioral patterns" />
     <MESSAGE value="lecture 14&#10;behavioral patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="lecture 14&#10;behavioral patterns" />
+    <MESSAGE value="lecture 15&#10;behavioral patterns&#10;double dispatch problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 15&#10;behavioral patterns&#10;double dispatch problem" />
   </component>
 </project>

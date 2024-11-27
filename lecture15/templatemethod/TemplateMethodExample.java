@@ -46,11 +46,6 @@ class CsvDataMiner extends DataMiner {
     protected void closeFile() {
         System.out.println("Закриття CSV файлу");
     }
-
-    @Override
-    protected void parseData() {
-        System.out.println("Парсинг даних з CSV файлу у спеціальний формат");
-    }
 }
 
 class PdfDataMiner extends DataMiner {

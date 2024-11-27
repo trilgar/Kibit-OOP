@@ -29,6 +29,8 @@ class AuthenticationDialog implements Mediator {
     public Button okBtn;
     public Button cancelBtn;
 
+    public Textbox outputTextbox;
+
     public AuthenticationDialog() {
         this.loginOrRegisterChkBx = new Checkbox(this);
         this.loginUsername = new Textbox(this);
@@ -38,6 +40,7 @@ class AuthenticationDialog implements Mediator {
         this.registrationEmail = new Textbox(this);
         this.okBtn = new Button(this);
         this.cancelBtn = new Button(this);
+        this.outputTextbox = new Textbox(this);
     }
 
     @Override
@@ -69,7 +72,7 @@ class AuthenticationDialog implements Mediator {
 }
 
 // Base Component class
-abstract class Component {
+class Component {
     protected Mediator dialog;
 
     public Component(Mediator dialog) {
