@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 15&#10;behavioral patterns&#10;double dispatch problem">
-      <change afterPath="$PROJECT_DIR$/lecture16/example1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture13/mediator/MediatorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture13/mediator/MediatorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture15/templatemethod/TemplateMethodExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lecture15/templatemethod/TemplateMethodExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kibit-OOP/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 16&#10;Generics and collections">
+      <change afterPath="$PROJECT_DIR$/lecture16/exapmple6/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture16/exapmple6/LinkedListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture16/exapmple6/ListComparison.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,88 +48,94 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractFabricExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AdapterExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BridgeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BuilderExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CallableExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChainOfResponsibilityExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassicMementoPatternExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CommandPatternDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompletableFutureExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompositeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DynamicBindingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example51.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example52.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example53.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example54.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example81.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleOfStatic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FacadeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FactoryExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FixedExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlyweightExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForkJoinExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncrementalDevelopment.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InnerClassMementoExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IteratorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainDIP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainDIPViolation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainOCP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MediatorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MementoExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObserverExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProblemExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrototypeExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProxyExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RaceCondition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnableExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SingletonExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solving.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StateExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticBindingExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StrategyExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamParallel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SynchronizedRaceCondition.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TemplateMethodExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPoolExampleWithFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VirtualThreadsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VisitorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture4.example31.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture4.example32.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture4.example34.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture4.example36.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture8.example1.ThreadExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture8.example2.RunnableExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture8.example3.RunnableExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture8.example4.RunnableExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.lecture8.example5.RunnableExample.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/zarit/IdeaProjects/Kibit-OOP/lecture10/solid/isp/goodexample&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Debugger_Data_Views_Java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractFabricExample.executor": "Run",
+    "Application.AdapterExample.executor": "Run",
+    "Application.BadExample.executor": "Run",
+    "Application.BridgeExample.executor": "Run",
+    "Application.BuilderExample.executor": "Run",
+    "Application.CallableExample.executor": "Run",
+    "Application.ChainOfResponsibilityExample.executor": "Run",
+    "Application.ClassicMementoPatternExample.executor": "Run",
+    "Application.CommandPatternDemo.executor": "Run",
+    "Application.CompletableFutureExample.executor": "Run",
+    "Application.CompositeExample.executor": "Run",
+    "Application.D.executor": "Run",
+    "Application.DynamicBindingExample.executor": "Run",
+    "Application.Example51.executor": "Run",
+    "Application.Example52.executor": "Run",
+    "Application.Example53.executor": "Run",
+    "Application.Example54.executor": "Run",
+    "Application.Example81.executor": "Run",
+    "Application.ExampleOfStatic.executor": "Run",
+    "Application.FacadeExample.executor": "Run",
+    "Application.FactoryExample.executor": "Run",
+    "Application.FixedExample.executor": "Run",
+    "Application.FlyweightExample.executor": "Run",
+    "Application.ForkJoinExample.executor": "Run",
+    "Application.GenApp.executor": "Run",
+    "Application.IncrementalDevelopment.executor": "Run",
+    "Application.InnerClassMementoExample.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
+    "Application.ListComparison.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainDIP.executor": "Run",
+    "Application.MainDIPViolation.executor": "Run",
+    "Application.MainOCP.executor": "Run",
+    "Application.MediatorExample.executor": "Run",
+    "Application.MementoExample.executor": "Run",
+    "Application.ObserverExample.executor": "Run",
+    "Application.ProblemExample.executor": "Run",
+    "Application.PrototypeExample.executor": "Run",
+    "Application.ProxyExample.executor": "Run",
+    "Application.RaceCondition.executor": "Run",
+    "Application.RunnableExample.executor": "Run",
+    "Application.SingletonExample.executor": "Run",
+    "Application.Solving.executor": "Run",
+    "Application.StackApp.executor": "Run",
+    "Application.StateExample.executor": "Run",
+    "Application.StaticBindingExample.executor": "Run",
+    "Application.StrategyExample.executor": "Run",
+    "Application.StreamParallel.executor": "Run",
+    "Application.SynchronizedRaceCondition.executor": "Run",
+    "Application.TemplateMethodExample.executor": "Run",
+    "Application.ThreadExample.executor": "Run",
+    "Application.ThreadPoolExample.executor": "Run",
+    "Application.ThreadPoolExampleWithFactory.executor": "Run",
+    "Application.VirtualThreadsExample.executor": "Run",
+    "Application.VisitorExample.executor": "Run",
+    "Application.lecture16.example2.Main.executor": "Run",
+    "Application.lecture16.example3.Main.executor": "Run",
+    "Application.lecture16.example4.StackApp.executor": "Run",
+    "Application.lecture3.Main.executor": "Run",
+    "Application.lecture4.example31.Main.executor": "Run",
+    "Application.lecture4.example32.Main.executor": "Run",
+    "Application.lecture4.example34.Main.executor": "Run",
+    "Application.lecture4.example36.Main.executor": "Run",
+    "Application.lecture8.example1.ThreadExample.executor": "Run",
+    "Application.lecture8.example2.RunnableExample.executor": "Run",
+    "Application.lecture8.example3.RunnableExample.executor": "Run",
+    "Application.lecture8.example4.RunnableExample.executor": "Run",
+    "Application.lecture8.example5.RunnableExample.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/zarit/IdeaProjects/Kibit-OOP/lecture10/solid/isp/goodexample",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Debugger_Data_Views_Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\lecture10\solid\isp\goodexample" />
@@ -144,13 +149,13 @@
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="InnerClassMementoExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture13.memento.innerclass.InnerClassMementoExample" />
+  <component name="RunManager" selected="Application.ListComparison">
+    <configuration name="GenApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example5.GenApp" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture13.memento.innerclass.*" />
+          <option name="PATTERN" value="lecture16.example5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example1.Main" />
+    <configuration name="ListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.exapmple6.ListComparison" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture16.example1.*" />
+          <option name="PATTERN" value="lecture16.exapmple6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture14.state.StateExample" />
+    <configuration name="StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example3.StackApp" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture14.state.*" />
+          <option name="PATTERN" value="lecture16.example3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture14.strategy.StrategyExample" />
+    <configuration name="lecture16.example3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example3.Main" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture14.strategy.*" />
+          <option name="PATTERN" value="lecture16.example3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateMethodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture15.templatemethod.TemplateMethodExample" />
+    <configuration name="lecture16.example4.StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example4.StackApp" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture15.templatemethod.*" />
+          <option name="PATTERN" value="lecture16.example4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TemplateMethodExample" />
-        <item itemvalue="Application.StrategyExample" />
-        <item itemvalue="Application.StateExample" />
-        <item itemvalue="Application.InnerClassMementoExample" />
+        <item itemvalue="Application.ListComparison" />
+        <item itemvalue="Application.GenApp" />
+        <item itemvalue="Application.lecture16.example4.StackApp" />
+        <item itemvalue="Application.StackApp" />
+        <item itemvalue="Application.lecture16.example3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +277,9 @@
       <workItem from="1731756691875" duration="3251000" />
       <workItem from="1731917357094" duration="5394000" />
       <workItem from="1732266471233" duration="4230000" />
-      <workItem from="1732729497371" duration="814000" />
+      <workItem from="1732729497371" duration="4832000" />
+      <workItem from="1732785610645" duration="24000" />
+      <workItem from="1732963234831" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 1">
       <option name="closed" value="true" />
@@ -498,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731761385360</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="lecture 16&#10;Generics and collections">
+      <option name="closed" value="true" />
+      <created>1732735307181</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1732735307181</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,6 +551,7 @@
     <MESSAGE value="lecture 13&#10;behavioral patterns" />
     <MESSAGE value="lecture 14&#10;behavioral patterns" />
     <MESSAGE value="lecture 15&#10;behavioral patterns&#10;double dispatch problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="lecture 15&#10;behavioral patterns&#10;double dispatch problem" />
+    <MESSAGE value="lecture 16&#10;Generics and collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 16&#10;Generics and collections" />
   </component>
 </project>
