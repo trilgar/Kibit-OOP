@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 16&#10;Generics and collections">
-      <change afterPath="$PROJECT_DIR$/lecture16/exapmple6/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture16/exapmple6/LinkedListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture16/exapmple6/ListComparison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture16/example11/HashCodeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture16/example12/ExtendsGenericExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,9 @@
   "keyToString": {
     "Application.AbstractFabricExample.executor": "Run",
     "Application.AdapterExample.executor": "Run",
+    "Application.ArrayListExample.executor": "Run",
     "Application.BadExample.executor": "Run",
+    "Application.BinarySearchExample.executor": "Run",
     "Application.BridgeExample.executor": "Run",
     "Application.BuilderExample.executor": "Run",
     "Application.CallableExample.executor": "Run",
@@ -61,6 +62,8 @@
     "Application.CommandPatternDemo.executor": "Run",
     "Application.CompletableFutureExample.executor": "Run",
     "Application.CompositeExample.executor": "Run",
+    "Application.CustomComparableExample.executor": "Run",
+    "Application.CustomComparatorExample.executor": "Run",
     "Application.D.executor": "Run",
     "Application.DynamicBindingExample.executor": "Run",
     "Application.Example51.executor": "Run",
@@ -69,15 +72,19 @@
     "Application.Example54.executor": "Run",
     "Application.Example81.executor": "Run",
     "Application.ExampleOfStatic.executor": "Run",
+    "Application.ExtendsGenericExample.executor": "Run",
     "Application.FacadeExample.executor": "Run",
     "Application.FactoryExample.executor": "Run",
     "Application.FixedExample.executor": "Run",
     "Application.FlyweightExample.executor": "Run",
     "Application.ForkJoinExample.executor": "Run",
     "Application.GenApp.executor": "Run",
+    "Application.HashMapExample.executor": "Run",
+    "Application.HashSetExample.executor": "Run",
     "Application.IncrementalDevelopment.executor": "Run",
     "Application.InnerClassMementoExample.executor": "Run",
     "Application.IteratorExample.executor": "Run",
+    "Application.LinkedListExample.executor": "Run",
     "Application.ListComparison.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainDIP.executor": "Run",
@@ -91,8 +98,12 @@
     "Application.ProxyExample.executor": "Run",
     "Application.RaceCondition.executor": "Run",
     "Application.RunnableExample.executor": "Run",
+    "Application.SearchExample.executor": "Run",
+    "Application.SearchWithComparator.executor": "Run",
+    "Application.SetOperationsExample.executor": "Run",
     "Application.SingletonExample.executor": "Run",
     "Application.Solving.executor": "Run",
+    "Application.SortExample.executor": "Run",
     "Application.StackApp.executor": "Run",
     "Application.StateExample.executor": "Run",
     "Application.StaticBindingExample.executor": "Run",
@@ -103,6 +114,7 @@
     "Application.ThreadExample.executor": "Run",
     "Application.ThreadPoolExample.executor": "Run",
     "Application.ThreadPoolExampleWithFactory.executor": "Run",
+    "Application.TreeSetExample.executor": "Run",
     "Application.VirtualThreadsExample.executor": "Run",
     "Application.VisitorExample.executor": "Run",
     "Application.lecture16.example2.Main.executor": "Run",
@@ -149,13 +161,39 @@
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListComparison">
-    <configuration name="GenApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example5.GenApp" />
+  <component name="RunManager" selected="Application.ExtendsGenericExample">
+    <configuration name="ExtendsGenericExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example12.ExtendsGenericExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture16.example5.*" />
+          <option name="PATTERN" value="lecture16.example12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example7.HashSetExample" />
+      <module name="Kibit-OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture16.example7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example6.LinkedListExample" />
+      <module name="Kibit-OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture16.example6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +202,11 @@
       </method>
     </configuration>
     <configuration name="ListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.exapmple6.ListComparison" />
+      <option name="MAIN_CLASS_NAME" value="lecture16.example6.ListComparison" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture16.exapmple6.*" />
+          <option name="PATTERN" value="lecture16.example6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,38 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example3.StackApp" />
+    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example7.TreeSetExample" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture16.example3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lecture16.example3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example3.Main" />
-      <module name="Kibit-OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture16.example3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lecture16.example4.StackApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example4.StackApp" />
-      <module name="Kibit-OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture16.example4.*" />
+          <option name="PATTERN" value="lecture16.example7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExtendsGenericExample" />
+        <item itemvalue="Application.TreeSetExample" />
+        <item itemvalue="Application.HashSetExample" />
         <item itemvalue="Application.ListComparison" />
-        <item itemvalue="Application.GenApp" />
-        <item itemvalue="Application.lecture16.example4.StackApp" />
-        <item itemvalue="Application.StackApp" />
-        <item itemvalue="Application.lecture16.example3.Main" />
+        <item itemvalue="Application.LinkedListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +291,11 @@
       <workItem from="1732266471233" duration="4230000" />
       <workItem from="1732729497371" duration="4832000" />
       <workItem from="1732785610645" duration="24000" />
-      <workItem from="1732963234831" duration="1096000" />
+      <workItem from="1732963234831" duration="6008000" />
+      <workItem from="1733130318606" duration="4471000" />
+      <workItem from="1733134801051" duration="1180000" />
+      <workItem from="1733220816536" duration="21000" />
+      <workItem from="1733338611034" duration="3150000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 1">
       <option name="closed" value="true" />
@@ -513,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732735307181</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="lecture 16&#10;Generics and collections">
+      <option name="closed" value="true" />
+      <created>1732969468753</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1732969468753</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
