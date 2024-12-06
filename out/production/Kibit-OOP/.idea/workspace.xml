@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 16&#10;Generics and collections">
-      <change afterPath="$PROJECT_DIR$/lecture16/example11/HashCodeExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture16/example12/ExtendsGenericExample.java" afterDir="false" />
+    <list default="true" id="6316ac0d-1887-483f-a7f0-63eb6c97767c" name="Changes" comment="lecture 16&#10;Wildcards">
+      <change afterPath="$PROJECT_DIR$/lecture16/covariance/ArraysExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
     "Application.AbstractFabricExample.executor": "Run",
     "Application.AdapterExample.executor": "Run",
     "Application.ArrayListExample.executor": "Run",
+    "Application.ArraysExample.executor": "Run",
     "Application.BadExample.executor": "Run",
     "Application.BinarySearchExample.executor": "Run",
     "Application.BridgeExample.executor": "Run",
@@ -86,6 +86,7 @@
     "Application.IteratorExample.executor": "Run",
     "Application.LinkedListExample.executor": "Run",
     "Application.ListComparison.executor": "Run",
+    "Application.LowerBoundedWildcard.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainDIP.executor": "Run",
     "Application.MainDIPViolation.executor": "Run",
@@ -115,6 +116,8 @@
     "Application.ThreadPoolExample.executor": "Run",
     "Application.ThreadPoolExampleWithFactory.executor": "Run",
     "Application.TreeSetExample.executor": "Run",
+    "Application.UnboundedWildcard.executor": "Run",
+    "Application.UpperBoundedWildcard.executor": "Run",
     "Application.VirtualThreadsExample.executor": "Run",
     "Application.VisitorExample.executor": "Run",
     "Application.lecture16.example2.Main.executor": "Run",
@@ -161,7 +164,20 @@
       <recent name="C:\Users\zarit\IdeaProjects\Kibit-OOP\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExtendsGenericExample">
+  <component name="RunManager" selected="Application.ArraysExample">
+    <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.covariance.ArraysExample" />
+      <module name="Kibit-OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lecture16.covariance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExtendsGenericExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lecture16.example12.ExtendsGenericExample" />
       <module name="Kibit-OOP" />
@@ -175,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example7.HashSetExample" />
+    <configuration name="LowerBoundedWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example13.LowerBoundedWildcard" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture16.example7.*" />
+          <option name="PATTERN" value="lecture16.example13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example6.LinkedListExample" />
+    <configuration name="UnboundedWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example13.UnboundedWildcard" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture16.example6.*" />
+          <option name="PATTERN" value="lecture16.example13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,25 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example6.ListComparison" />
+    <configuration name="UpperBoundedWildcard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lecture16.example13.UpperBoundedWildcard" />
       <module name="Kibit-OOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture16.example6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lecture16.example7.TreeSetExample" />
-      <module name="Kibit-OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lecture16.example7.*" />
+          <option name="PATTERN" value="lecture16.example13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraysExample" />
+        <item itemvalue="Application.LowerBoundedWildcard" />
+        <item itemvalue="Application.UpperBoundedWildcard" />
+        <item itemvalue="Application.UnboundedWildcard" />
         <item itemvalue="Application.ExtendsGenericExample" />
-        <item itemvalue="Application.TreeSetExample" />
-        <item itemvalue="Application.HashSetExample" />
-        <item itemvalue="Application.ListComparison" />
-        <item itemvalue="Application.LinkedListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +298,8 @@
       <workItem from="1733130318606" duration="4471000" />
       <workItem from="1733134801051" duration="1180000" />
       <workItem from="1733220816536" duration="21000" />
-      <workItem from="1733338611034" duration="3150000" />
+      <workItem from="1733338611034" duration="5883000" />
+      <workItem from="1733497753119" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="Lecture 1">
       <option name="closed" value="true" />
@@ -537,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732969468753</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="lecture 16&#10;Wildcards">
+      <option name="closed" value="true" />
+      <created>1733344596168</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733344596168</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,6 +588,7 @@
     <MESSAGE value="lecture 14&#10;behavioral patterns" />
     <MESSAGE value="lecture 15&#10;behavioral patterns&#10;double dispatch problem" />
     <MESSAGE value="lecture 16&#10;Generics and collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="lecture 16&#10;Generics and collections" />
+    <MESSAGE value="lecture 16&#10;Wildcards" />
+    <option name="LAST_COMMIT_MESSAGE" value="lecture 16&#10;Wildcards" />
   </component>
 </project>
